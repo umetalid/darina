@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">darina</string>
+    <string name="registrcard">РЕГСИТРАЦИЯ КАРТЫ</string>
+    <string name="welcome">ДОБРО ПОЖАЛОВАТЬ!</string>
+    <string name="signin">регистрация</string>
+    <string name="signinmain">РЕГИСТРАЦИЯ</string>
+    <drawable name="next">component_3__1_</drawable>
+    <string name="paycheck">PayCheck</string>
+    <string name="statistics">Статистика</string>
+    <string name="balance">БАЛАНС: 12 678,00 KGS</string>
+    <string name="numbers">№7897534856230498</string>
+    <string name="december">декабрь 2021</string>
+    <string name="december10">10 декабря - оплата квартиры</string>
+    <string name="december12">12 декабря - отдать долг Мише</string>
+    <string name="december24">24 декабря - покупка продуктов</string>
+    <string name="december30">30 декабря - покупка продуктов 2</string>
+    <string name="addpayment">Добавить плановый платеж</string>
+    <string name="profile">Личный аккаунт</string>
+    <string name="name">Дарина Уметалиева</string>
+    <string name="points">83 балла</string>
+    <string name="points2">Баллы</string>
+    <string name="settings">Настройки</string>
+    <string name="exit">Выход</string>
+    <string name="notfication">Уведомление</string>
+    <string name="date">Дата</string>
+    <string name="category">Категория</string>
+    <string name="schet">Счет</string>
+    <string name="namepayment">Название</string>
+    <string name="planpay">Плановый платеж</string>
+    <string name="month">МЕСЯЦ</string>
+
+
 </resources>

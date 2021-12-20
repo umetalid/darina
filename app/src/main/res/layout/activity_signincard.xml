@@ -4,93 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Signin"
-    android:background="@color/main">
+    tools:context=".Signincard">
 
     <TextView
-        android:id="@+id/signinmain"
+        android:id="@+id/signincard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="146dp"
         android:layout_marginEnd="100dp"
-        android:text="РЕГИСТРАЦИЯ"
+        android:text="@string/registrcard"
         android:textColor="@color/main2"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/name"
+        android:id="@+id/nameholder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="48dp"
-        android:src="@drawable/component_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signinmain" />
+        app:layout_constraintTop_toBottomOf="@+id/signincard"
+        app:srcCompat="@drawable/component_6" />
 
     <ImageView
-        android:id="@+id/surname"
+        android:id="@+id/numbercard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
         android:layout_marginTop="19dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/component_2"
+        android:layout_marginEnd="46dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:layout_constraintTop_toBottomOf="@+id/nameholder"
+        app:srcCompat="@drawable/component_7__1_" />
 
     <ImageView
-        android:id="@+id/email"
+        android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
         android:layout_marginTop="19dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/component_4__1_"
+        android:layout_marginEnd="46dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/surname" />
+        app:layout_constraintTop_toBottomOf="@+id/numbercard"
+        app:srcCompat="@drawable/component_8" />
 
     <ImageView
-        android:id="@+id/password"
+        android:id="@+id/cvv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/component_5__1_"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="46dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:srcCompat="@drawable/component_9" />
 
     <ImageView
-        android:id="@+id/passwordcheck"
+        android:id="@+id/gotovo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/component_7"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
+        app:srcCompat="@drawable/component_18" />
 
-    <ImageView
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="87dp"
-        android:layout_marginEnd="48dp"
-        android:src="@drawable/component_3__1_"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordcheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

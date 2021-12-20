@@ -7,7 +7,7 @@ import android.os.Bundle
 import com.example.darina.databinding.SigninBinding
 
 class Login : AppCompatActivity() {
-    private lateinit var binding: SigninBinding
+    private lateinit var binding: activity_signin
     @SuppressLint("setTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

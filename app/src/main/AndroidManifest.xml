@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Darina">
         <activity
+            android:name=".adding"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".Statiscticspage"
+            android:exported="true" />
+        <activity
+            android:name=".Planpage"
+            android:exported="true" />
+        <activity
+            android:name=".Mainpage"
+            android:exported="true" />
+        <activity
+            android:name=".Planpage2"
+            android:exported="true" />
+        <activity
+            android:name=".Final_darina_umetalieva"
+            android:exported="true" />
+        <activity
             android:name=".signincard"
             android:exported="true" />
         <activity
