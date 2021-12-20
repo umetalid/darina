@@ -58,7 +58,7 @@
         android:id="@+id/house"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="47dp"
+        android:layout_marginEnd="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/statistics"
         app:layout_constraintTop_toTopOf="@+id/bottom"
