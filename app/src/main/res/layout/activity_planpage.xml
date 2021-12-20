@@ -252,7 +252,7 @@
       android:id="@+id/december24"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginStart="17dp"
+      android:layout_marginStart="18dp"
       android:text="@string/december24"
       android:textColor="@color/black"
       app:layout_constraintBottom_toTopOf="@+id/line2"
