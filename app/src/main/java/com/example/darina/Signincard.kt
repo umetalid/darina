@@ -4,21 +4,20 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.darina.databinding.SigninBinding
+import android.widget.ImageView
+import android.widget.TextView
 
 class Signincard : AppCompatActivity() {
-    private lateinit var binding: SigninBinding
-
-    @SuppressLint("setTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
-        binding = SigninBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(R.layout.activity_signincard)
+        //body
+        val ImageView = findViewById<ImageView>(R.id.gotovo)
 
-        binding.signinmain.setOnClickListener {
-            startActivity(Intent(this, Signin::class.java))
+        ImageView.setOnClickListener {
+            startActivity(Intent(this, Mainpage::class.java))
             finish()
         }
+        //body
     }
 }

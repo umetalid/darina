@@ -22,5 +22,4 @@ class Login : AppCompatActivity() {
         }
         //body
     }
-
 }

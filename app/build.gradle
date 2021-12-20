@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.darina"
+        applicationId "kg.test.app_project2"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -15,6 +15,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     buildFeatures{
         viewBinding true
     }
