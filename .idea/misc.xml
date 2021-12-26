@@ -11,9 +11,10 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/drawable/component_5.xml" value="0.15185185185185185" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/drawable/component_5__1_.xml" value="0.15185185185185185" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/drawable/component_7.xml" value="0.15185185185185185" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/drawable/house.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_adding.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_final_darina_umetalieva.xml" value="0.24666666666666667" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_login.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_mainpage.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_planpage.xml" value="0.25052083333333336" />
@@ -28,7 +29,6 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/signin.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/signincard.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/statistics.xml" value="0.264" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/darina/app/src/main/res/layout/activity_main.xml" value="0.16111111111111112" />
       </map>
     </option>
   </component>

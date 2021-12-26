@@ -10,10 +10,10 @@ class Statiscticspage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_statiscticspage)
         //body
-        val ImageView = findViewById<ImageView>(R.id.plus)
+        val statiscticspage = findViewById<ImageView>(R.id.plus)
 
-        ImageView.setOnClickListener {
-            startActivity(Intent(this, adding::class.java))
+        statiscticspage.setOnClickListener {
+            startActivity(Intent(this, Adding::class.java))
             finish()
         }
         //body

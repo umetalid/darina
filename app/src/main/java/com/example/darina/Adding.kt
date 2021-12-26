@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class adding : AppCompatActivity() {
+class Adding : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adding)
         //body
-        val ImageView = findViewById<ImageView>(R.id.list)
+        val list = findViewById<ImageView>(R.id.list)
 
-        ImageView.setOnClickListener {
+        list.setOnClickListener {
             startActivity(Intent(this, Planpage::class.java))
             finish()
         }

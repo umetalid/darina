@@ -13,7 +13,7 @@
             android:name=".adding"
             android:exported="true" />
         <activity
-            android:name=".profile"
+            android:name=".Profile"
             android:exported="true" />
         <activity
             android:name=".Statiscticspage"

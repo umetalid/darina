@@ -14,9 +14,9 @@ class Signin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
         //body
-        val ImageView = findViewById<ImageView>(R.id.next)
+        val signin = findViewById<ImageView>(R.id.next)
 
-        ImageView.setOnClickListener {
+        signin.setOnClickListener {
             startActivity(Intent(this, Signincard::class.java))
             finish()
         }

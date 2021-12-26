@@ -10,9 +10,9 @@ class Planpage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_planpage)
         //body
-        val ImageView = findViewById<ImageView>(R.id.adding)
+        val planpage = findViewById<ImageView>(R.id.adding)
 
-        ImageView.setOnClickListener {
+        planpage.setOnClickListener {
             startActivity(Intent(this, Planpage2::class.java))
             finish()
         }

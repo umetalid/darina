@@ -10,9 +10,9 @@ class Mainpage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mainpage)
         //body
-        val ImageView = findViewById<ImageView>(R.id.statistics)
+        val mainpage = findViewById<ImageView>(R.id.statistics)
 
-        ImageView.setOnClickListener {
+        mainpage.setOnClickListener {
             startActivity(Intent(this, Statiscticspage::class.java))
             finish()
         }
